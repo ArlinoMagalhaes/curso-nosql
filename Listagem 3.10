@@ -1,0 +1,8 @@
+CREATE TABLE filmes (
+videoId uuid,
+nome_filme varchar,
+descricao varchar,
+localizacao_imagem_capa text,
+6data timestamp,
+PRIMARY KEY (videoId)
+);
