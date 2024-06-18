@@ -1,0 +1,4 @@
+MATCH (p1:Pessoa {nome: 'Neo'}),
+      (p2:Pessoa {nome: 'Agente Smith'})
+WHERE NOT (p1)-[:CONHECE]->(p2)
+CREATE (p1)-[:CONHECE]->(p2)
