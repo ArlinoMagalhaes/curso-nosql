@@ -1,0 +1,1 @@
+ db.posts.createIndex(author_name: 1)
