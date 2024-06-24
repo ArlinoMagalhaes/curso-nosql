@@ -1,1 +1,1 @@
-CREATE INDEX ON filmes (nome_filme);
+ db.albuns.find ({"nome_album": "Legião Urbana"})
