@@ -1,0 +1,6 @@
+ {
+ "_id": ObjectId("63c828b5342dda43e93bee1e"),
+ "nome_album": "Tom Jobim"
+ "duracao": 3200
+ "id_genero": ObjectId("54d1562cf7bb967d7b976d07")
+ }
