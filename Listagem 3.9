@@ -1,21 +1,11 @@
-db.albuns.aggregate([
-{
-$lookup: {
-from: "generos",
-localField: "id_genero",
-foreignField: "id",
-as: "genero_info"
-}
-},
-{
-$unwind: "$genero_info"
-},
-{
-$project: {
-"nome_album": 1,
-"genero_info.nome_genero": 1
-}
-}
-]).forEach(function(album) {
-print(album["nome_album"], album["genero_info"]["nome_genero"]);
-});
+ # Adiciona os produtos ao carrinho do utilizador com ID 1234
+ HSET user:1234 produto:p1 '{"id": "p1",
+ "nome": "Camisa",
+ "preço": "25.00",
+ "quantidade": "2"}'
+ HSET user:1234 produto:p2 '{"id": "p2",
+ "nome": "Calça",
+ "preço": "35.00",
+ "quantidade": "1"}'
+ # Retorna os produtos do carrinho do utilizador com ID 1234
+ HGETALL user:1234
