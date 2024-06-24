@@ -1,0 +1,33 @@
+ // Cliente
+{
+ "id": 1,
+ "nome": "João",
+ "enderecoCobrança": [ {"cidade": "Teresina"} ]
+ }
+ // Pedido
+ {
+ "id": 31,
+ "idCliente": 1,
+ "enderecoEntrega": {"cidade": "Teresina"},
+ "itemPedido": [
+ {
+ "idProduto": 6,
+ "nome": "mouse",
+ "preço": 55.60
+ },
+ {
+ "idProduto": 5,
+ "nome": "notebook",
+ "preço": 3750.99
+ }
+ ],
+ "pagamento": [
+ {
+ "numeroCartão": "111 111 11",
+ "EndereçoCobrança":
+ {
+ "cidade": "Teresina"
+ }
+ }
+ ]
+ }
