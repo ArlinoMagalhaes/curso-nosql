@@ -1,6 +1,0 @@
- db.posts.find(
- {}, { timestamp : 1 ,
- title : 1 ,
- author : 1 ,
- abstract : 1 }
- ).sort( { timestamp :-1 } )

@@ -1,1 +1,0 @@
-db.users.find().hint("age_1")

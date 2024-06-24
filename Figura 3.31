@@ -1,1 +1,0 @@
- db.posts.find().limit(10)
