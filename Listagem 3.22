@@ -1,0 +1,8 @@
+ CREATE TABLE filmes_assistidos (
+ userId uuid,
+ watch_date timestamp,
+ videoId uuid,
+ nome_filme varchar,
+ localizacao_imagem_capa text,
+ PRIMARY KEY (userId, watch_date, videoId)
+ ) WITH COMPACT STORAGE
