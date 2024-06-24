@@ -1,0 +1,5 @@
+var albuns = db.albuns.find({});
+ albuns.forEach(function(album) {
+ var genero = db.generos.findOne({"_id": album["id_genero"]});
+ print(album["nome_album"], genero["nome_genero"]);
+ })
