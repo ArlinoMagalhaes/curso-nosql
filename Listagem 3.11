@@ -1,1 +1,4 @@
-SELECT * FROM filmes WHERE nome_filme = 'Matrix Revolutions';
+db.albuns.insertOne ({
+ "nome_album": "Legião Urbana",
+ "duracao": 3286
+ )}
