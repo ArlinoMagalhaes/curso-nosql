@@ -9,3 +9,5 @@ Link para download: [Download da imagem](https://drive.google.com/drive/folders/
 Credenciais de acesso:<br/>
 * Usuário: ubuntu
 * Senha: ubuntu
+
+A imagem é do VirtualBox com o sistema operacional Linux Ubuntu e os bancos de dados NoSQL apresentados no curso já instalados e configurados.
