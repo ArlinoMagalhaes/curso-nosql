@@ -10,4 +10,7 @@ Credenciais de acesso:<br/>
 * Usuário: ubuntu
 * Senha: ubuntu
 
-A imagem é do VirtualBox com o sistema operacional Linux Ubuntu e os bancos de dados NoSQL apresentados no curso já instalados e configurados.
+A imagem é do VirtualBox com o sistema operacional Linux Ubuntu e os bancos de dados NoSQL apresentados no curso já instalados e configurados: Redis, MongoDB, Cassandra e Neo4J.
+
+[Minicurso Projeto e ajuste de desempenho de bancos
+de dados NoSQL](https://books-sol.sbc.org.br/index.php/sbc/catalog/download/145/637/1107?inline=1)
